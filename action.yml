@@ -1,0 +1,5 @@
+name: Enforce Active Pull Request is Labeled
+description: Check that a PR which is out of Draft status has labels.
+runs:
+  using: node12
+  main: dist/index.js
